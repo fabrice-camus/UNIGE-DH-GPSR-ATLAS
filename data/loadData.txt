@@ -1,0 +1,20 @@
+--==============================================================
+-- Création du dataset
+-- 
+-- Les coordonnées n'étant pas encore saisies dans la BDD : 
+--		Saisie au préalable des coordonnées pour FROMAGE dans la BDD
+
+-- Une fois les coordonnées saisies
+--		Création d'un package PL/SQL PKG_FCA_ATLAS
+--		Création d'une fonction d'export directement en JSON
+--	 	Extraction des formes riches JSON --> Fichier formesRichesPrecises.json
+--==============================================================
+
+
+set SERVEROUTPUT ON
+declare
+    formesRichesJsons clob;
+begin 
+   DBMS_OUTPUT.put_line(pkg_fca_atlas.formesrichesprecises2json(65848));
+end;
+/

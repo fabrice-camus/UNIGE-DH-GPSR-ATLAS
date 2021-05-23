@@ -1,0 +1,960 @@
+{
+"lesformes":[
+{
+"FORMERICHE":"\u003Cp class=\"gpsr_formeFraReg\"\u003Efromaige\u003C\/p\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LOCALISATION":"Porrentruy (J 6)"
+,"LATITUDE":47.4158964
+,"LONGITUDE":7.0768294
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Noville (Vd 11)"
+,"LATITUDE":46.3809186
+,"LONGITUDE":6.8985927
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"L\u0027\u00C9tivaz (Vd 24)"
+,"LATITUDE":46.4245799
+,"LONGITUDE":7.1478358
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"L\u0027\u00C9tivaz (Vd 24)"
+,"LATITUDE":46.4245799
+,"LONGITUDE":7.1478358
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"L\u0027\u00C9tivaz (Vd 24)"
+,"LATITUDE":46.4245799
+,"LONGITUDE":7.1478358
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC09dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Blonay (Vd 31)"
+,"LATITUDE":46.4658558
+,"LONGITUDE":6.8944082
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC09dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Blonay (Vd 31)"
+,"LATITUDE":46.4658558
+,"LONGITUDE":6.8944082
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC03dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Montheron (Vd 36)"
+,"LATITUDE":46.5901487
+,"LONGITUDE":6.6643457
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC06dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Montheron (Vd 36)"
+,"LATITUDE":46.5901487
+,"LONGITUDE":6.6643457
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Vullierens (Vd 40)"
+,"LATITUDE":46.5741869
+,"LONGITUDE":6.4812202
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Bi\u00E8re (Vd 41)"
+,"LATITUDE":46.5381636
+,"LONGITUDE":6.3334256
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259madz\u0259\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Burtigny (Vd 43)"
+,"LATITUDE":46.4649121
+,"LONGITUDE":6.2592677
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Burtigny (Vd 43)"
+,"LATITUDE":46.4649121
+,"LONGITUDE":6.2592677
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formeFraReg\"\u003Eformage\u003C\/p\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LOCALISATION":"Gland (Vd 44)"
+,"LATITUDE":46.4236957
+,"LONGITUDE":6.2652174
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC03dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Le Chenit (Vd 54)"
+,"LATITUDE":46.6046637
+,"LONGITUDE":6.2337695
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Penthalaz (Vd 61)"
+,"LATITUDE":46.6142635
+,"LONGITUDE":6.5293111
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Penthalaz (Vd 61)"
+,"LATITUDE":46.6142635
+,"LONGITUDE":6.5293111
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Penthalaz (Vd 61)"
+,"LATITUDE":46.6142635
+,"LONGITUDE":6.5293111
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Penthalaz (Vd 61)"
+,"LATITUDE":46.6142635
+,"LONGITUDE":6.5293111
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Pailly (Vd 64)"
+,"LATITUDE":46.6993142
+,"LONGITUDE":6.6724636
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Pailly (Vd 64)"
+,"LATITUDE":46.6993142
+,"LONGITUDE":6.6724636
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC03dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Vallorbe (Vd 70)"
+,"LATITUDE":46.7129027
+,"LONGITUDE":6.3800379
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC09dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Vallorbe (Vd 70)"
+,"LATITUDE":46.7129027
+,"LONGITUDE":6.3800379
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Vaulion (Vd 71)"
+,"LATITUDE":46.6892246
+,"LONGITUDE":6.3903909
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Vaugondry (Vd 82)"
+,"LATITUDE":46.8464316
+,"LONGITUDE":6.6368563
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Sassel (Vd 90)"
+,"LATITUDE":46.7772391
+,"LONGITUDE":6.8576526
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Vouvry (V 12)"
+,"LATITUDE":46.3354291
+,"LONGITUDE":6.8860232
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Vionnaz (V 14)"
+,"LATITUDE":46.3089812
+,"LONGITUDE":6.8996495
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Champ\u00E9ry (V 18)"
+,"LATITUDE":46.1782861
+,"LONGITUDE":6.8702652
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Trient (V 30)"
+,"LATITUDE":46.0560054
+,"LONGITUDE":6.9947493
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Trient (V 30)"
+,"LATITUDE":46.0560054
+,"LONGITUDE":6.9947493
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2madz\u0259\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Leytron (V 35)"
+,"LATITUDE":46.1878628
+,"LONGITUDE":7.2146604
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06do\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Is\u00E9rables (V 36)"
+,"LATITUDE":46.1614978
+,"LONGITUDE":7.2450924
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06do\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Is\u00E9rables (V 36)"
+,"LATITUDE":46.1614978
+,"LONGITUDE":7.2450924
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06do\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Is\u00E9rables (V 36)"
+,"LATITUDE":46.1614978
+,"LONGITUDE":7.2450924
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\u0101dz\u0259\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Sembrancher (V 40)"
+,"LATITUDE":46.0782179
+,"LONGITUDE":7.1505448
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Sembrancher (V 40)"
+,"LATITUDE":46.0782179
+,"LONGITUDE":7.1505448
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259madz\u0259\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Praz-de-Fort (V 42)"
+,"LATITUDE":45.9900139
+,"LONGITUDE":7.1254812
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\u0101dz\u0259\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Praz-de-Fort (V 42)"
+,"LATITUDE":45.9900139
+,"LONGITUDE":7.1254812
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Liddes (V 43)"
+,"LATITUDE":45.9910645
+,"LONGITUDE":7.1847411
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Voll\u00E8ges (V 45)"
+,"LATITUDE":46.0873728
+,"LONGITUDE":7.1687972
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Voll\u00E8ges (V 45)"
+,"LATITUDE":46.0873728
+,"LONGITUDE":7.1687972
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F3m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Le Ch\u00E2ble (V 46)"
+,"LATITUDE":46.0794055
+,"LONGITUDE":7.2146455
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\uECACm\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Le Ch\u00E2ble (V 46)"
+,"LATITUDE":46.0794055
+,"LONGITUDE":7.2146455
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Lourtier (V 47)"
+,"LATITUDE":46.0523848
+,"LONGITUDE":7.2635626
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Lourtier (V 47)"
+,"LATITUDE":46.0523848
+,"LONGITUDE":7.2635626
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F6m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Lourtier (V 47)"
+,"LATITUDE":46.0523848
+,"LONGITUDE":7.2635626
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Lourtier (V 47)"
+,"LATITUDE":46.0523848
+,"LONGITUDE":7.2635626
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\uECACm\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Lourtier (V 47)"
+,"LATITUDE":46.0523848
+,"LONGITUDE":7.2635626
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\uECACm\uEC06dz\u00F6\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Lourtier (V 47)"
+,"LATITUDE":46.0523848
+,"LONGITUDE":7.2635626
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Chamoson (V 50)"
+,"LATITUDE":46.2021034
+,"LONGITUDE":7.225019
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Ardon (V 50a)"
+,"LATITUDE":46.2104412
+,"LONGITUDE":7.2525681
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Nendaz (V 51)"
+,"LATITUDE":46.1833252
+,"LONGITUDE":7.2944456
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Nendaz (V 51)"
+,"LATITUDE":46.1833252
+,"LONGITUDE":7.2944456
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Nendaz (V 51)"
+,"LATITUDE":46.1833252
+,"LONGITUDE":7.2944456
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Nendaz (V 51)"
+,"LATITUDE":46.1833252
+,"LONGITUDE":7.2944456
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Nendaz (V 51)"
+,"LATITUDE":46.1833252
+,"LONGITUDE":7.2944456
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Nendaz (V 51)"
+,"LATITUDE":46.1833252
+,"LONGITUDE":7.2944456
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03do\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"commune de Conthey (V 5)"
+,"LATITUDE":46.2273501
+,"LONGITUDE":7.3048751
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F3m\uEC03dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Savi\u00E8se (V 60)"
+,"LATITUDE":46.2507722
+,"LONGITUDE":7.3497726
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F3m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Savi\u00E8se (V 60)"
+,"LATITUDE":46.2507722
+,"LONGITUDE":7.3497726
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F3m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Savi\u00E8se (V 60)"
+,"LATITUDE":46.2507722
+,"LONGITUDE":7.3497726
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Arbaz (V 61)"
+,"LATITUDE":46.2722651
+,"LONGITUDE":7.3834924
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Ayent (V 70)"
+,"LATITUDE":46.3190236
+,"LONGITUDE":7.4166423
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formeFraReg\"\u003Efromaso\u003C\/p\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LOCALISATION":"H\u00E9r\u00E9mence (V 71)"
+,"LATITUDE":46.1805381
+,"LONGITUDE":7.4045235
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"H\u00E9r\u00E9mence (V 71)"
+,"LATITUDE":46.1805381
+,"LONGITUDE":7.4045235
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Vernami\u00E8ge (V 73)"
+,"LATITUDE":46.2101597
+,"LONGITUDE":7.4379643
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Vernami\u00E8ge (V 73)"
+,"LATITUDE":46.2101597
+,"LONGITUDE":7.4379643
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Mase (V 74)"
+,"LATITUDE":46.1952168
+,"LONGITUDE":7.4365042
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Mase (V 74)"
+,"LATITUDE":46.1952168
+,"LONGITUDE":7.4365042
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Saint-Martin (V 74a)"
+,"LATITUDE":46.1724562
+,"LONGITUDE":7.443777
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"\u00C9vol\u00E8ne (V 75)"
+,"LATITUDE":46.1130568
+,"LONGITUDE":7.4959924
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"\u00C9vol\u00E8ne (V 75)"
+,"LATITUDE":46.1130568
+,"LONGITUDE":7.4959924
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Lens (V 80)"
+,"LATITUDE":46.2789447
+,"LONGITUDE":7.4454026
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Chermignon (V 80a)"
+,"LATITUDE":46.2868357
+,"LONGITUDE":7.4747497
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Randogne (V 82a)"
+,"LATITUDE":46.3129997
+,"LONGITUDE":7.5107954
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Gr\u00F4ne (V 84)"
+,"LATITUDE":46.251695
+,"LONGITUDE":7.4543342
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Chalais (V 85)"
+,"LATITUDE":46.2652293
+,"LONGITUDE":7.5046364
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Saint-Luc (V 86)"
+,"LATITUDE":46.2201698
+,"LONGITUDE":7.5977699
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Saint-Luc (V 86)"
+,"LATITUDE":46.2201698
+,"LONGITUDE":7.5977699
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Saint-Luc (V 86)"
+,"LATITUDE":46.2201698
+,"LONGITUDE":7.5977699
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Saint-Luc (V 86)"
+,"LATITUDE":46.2201698
+,"LONGITUDE":7.5977699
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Chandolin (V 86a)"
+,"LATITUDE":46.2524751
+,"LONGITUDE":7.5898703
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Pinsec (V 88)"
+,"LATITUDE":46.2207331
+,"LONGITUDE":7.570188
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\u1E51\u1E93\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Hermance (G 10)"
+,"LATITUDE":46.3013889
+,"LONGITUDE":6.244453
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC09\u1E93o\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Hermance (G 10)"
+,"LATITUDE":46.3013889
+,"LONGITUDE":6.244453
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259ma\u1E93\u0259\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Jussy (G 11a)"
+,"LATITUDE":46.2353901
+,"LONGITUDE":6.2660266
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC01\u1E93\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Bernex (G 17)"
+,"LATITUDE":46.1737084
+,"LONGITUDE":6.0696604
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259ma\u1E51\u1E93\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Aire-la-Ville (G 18)"
+,"LATITUDE":46.1908367
+,"LONGITUDE":6.0433918
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC06\u1E93o\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Dardagny (G 20)"
+,"LATITUDE":46.1948071
+,"LONGITUDE":5.9953172
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC09\u1E93o\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Dardagny (G 20)"
+,"LATITUDE":46.1948071
+,"LONGITUDE":5.9953172
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC09dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Villars-sous-Mont (F 12)"
+,"LATITUDE":46.5399643
+,"LONGITUDE":7.0694673
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC09dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Grandvillard (F 13)"
+,"LATITUDE":46.5387968
+,"LONGITUDE":7.0856673
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC09dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"La Roche (F 17)"
+,"LATITUDE":46.6963635
+,"LONGITUDE":7.1379529
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formeFraReg\"\u003Efourmage\u003C\/p\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LOCALISATION":"Ch\u00E2tel-Saint-Denis (F 21)"
+,"LATITUDE":46.5288002
+,"LONGITUDE":6.9010718
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC09dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Ch\u00E2tel-Saint-Denis (F 21)"
+,"LATITUDE":46.5288002
+,"LONGITUDE":6.9010718
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC85dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Ch\u00E2tel-Saint-Denis (F 21)"
+,"LATITUDE":46.5288002
+,"LONGITUDE":6.9010718
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC85dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Villargiroud (F 34)"
+,"LATITUDE":46.7042415
+,"LONGITUDE":7.0012941
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC09dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Granges-de-Vesin (F 51)"
+,"LATITUDE":46.8122852
+,"LONGITUDE":6.8426537
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC06dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Dompierre (F 56)"
+,"LATITUDE":46.8530448
+,"LONGITUDE":6.9885729
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC06dzo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Gorgier (N 12)"
+,"LATITUDE":46.9031648
+,"LONGITUDE":6.7805283
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC2Fdjo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Noiraigue (N 20)"
+,"LATITUDE":46.9560556
+,"LONGITUDE":6.7229671
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC2Ddjo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Noiraigue (N 20)"
+,"LATITUDE":46.9560556
+,"LONGITUDE":6.7229671
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC3Fdjo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Couvet (N 21)"
+,"LATITUDE":46.925002
+,"LONGITUDE":6.6325533
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC08djou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Le Cerneux-P\u00E9quignot (N 30)"
+,"LATITUDE":47.0169411
+,"LONGITUDE":6.6649969
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC3Fdjou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Le Cerneux-P\u00E9quignot (N 30)"
+,"LATITUDE":47.0169411
+,"LONGITUDE":6.6649969
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0153m\u00E9dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"La Br\u00E9vine (N 31)"
+,"LATITUDE":46.9798268
+,"LONGITUDE":6.6076012
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\uEC8Am\u00E9dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"La Br\u00E9vine (N 31)"
+,"LATITUDE":46.9798268
+,"LONGITUDE":6.6076012
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Ef\u0259rm\u1E17dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"La Chaux-du-Milieu (N 32)"
+,"LATITUDE":47.013555
+,"LONGITUDE":6.7019603
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Ef\u0259rm\u1E17dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"La Sagne (N 40)"
+,"LATITUDE":47.0393735
+,"LONGITUDE":6.7996594
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003E\u00ABfeurm\u00E2dge\u00BB\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Valangin (N 50)"
+,"LATITUDE":47.0161643
+,"LONGITUDE":6.907061
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formeFraReg\"\u003Efromaige\u003C\/p\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LOCALISATION":"Valangin (N 50)"
+,"LATITUDE":47.0161643
+,"LONGITUDE":6.907061
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Ef\u0259rm\u0101dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Savagnier (N 51)"
+,"LATITUDE":47.0473751
+,"LONGITUDE":6.9533893
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formeFraReg\"\u003Efrommaige\u003C\/p\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LOCALISATION":"ville de Neuch\u00E2tel (N 6)"
+,"LATITUDE":46.992045
+,"LONGITUDE":6.9263558
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Ef\u0259rmadj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Lamboing (B 13)"
+,"LATITUDE":47.1173569
+,"LONGITUDE":7.1363564
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Ef\u0259rmadj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Orvin (B 20)"
+,"LATITUDE":47.1591448
+,"LONGITUDE":7.2163793
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Ef\u0259rm\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Plagne (B 22)"
+,"LATITUDE":47.1883888
+,"LONGITUDE":7.2873942
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u0259madj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Malleray (B 32)"
+,"LATITUDE":47.2382818
+,"LONGITUDE":7.2748951
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Eform\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Courchapoix (J 36)"
+,"LATITUDE":47.3473412
+,"LONGITUDE":7.451434
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Eform\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Vermes (J 40)"
+,"LATITUDE":47.3297736
+,"LONGITUDE":7.4780535
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Eform\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Courfaivre (J 43)"
+,"LATITUDE":47.3325577
+,"LONGITUDE":7.2762956
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Eform\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Mettembert (J 48)"
+,"LATITUDE":47.3978923
+,"LONGITUDE":7.3194678
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Les Bois (J 50)"
+,"LATITUDE":47.1766013
+,"LONGITUDE":6.9051307
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"\u00C9pauvillers (J 54)"
+,"LATITUDE":47.3351893
+,"LONGITUDE":7.115581
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"\u00C9piquerez (J 5)"
+,"LATITUDE":47.3286569
+,"LONGITUDE":7.057911
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efranm\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Charmoille (J 60)"
+,"LATITUDE":47.4234883
+,"LONGITUDE":7.2043987
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Charmoille (J 60)"
+,"LATITUDE":47.4234883
+,"LONGITUDE":7.2043987
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\u00E8dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Bonfol (J 61)"
+,"LATITUDE":47.479528
+,"LONGITUDE":7.147486
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC00dj\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Ocourt (J 66)"
+,"LATITUDE":47.3519234
+,"LONGITUDE":7.0779221
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efroum\uEC03dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Oron-la-Ville (Vd 69)"
+,"LATITUDE":46.5704841
+,"LONGITUDE":6.827282
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formeFraReg\"\u003Eformage\u003C\/p\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LOCALISATION":"Payerne (Vd 9)"
+,"LATITUDE":46.8207355
+,"LONGITUDE":6.9377684
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formeFraReg\"\u003Efremage\u003C\/p\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LOCALISATION":"Vuippens (F 1)"
+,"LATITUDE":46.6588502
+,"LONGITUDE":7.0729385
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formeFraReg\"\u003Eformage\u003C\/p\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LOCALISATION":"Clarens (Vd 3)"
+,"LATITUDE":46.4420271
+,"LONGITUDE":6.8924829
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formeFraReg\"\u003Efourmage\u003C\/p\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LOCALISATION":"Clarens (Vd 3)"
+,"LATITUDE":46.4420271
+,"LONGITUDE":6.8924829
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efrom\uEC06zo\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Venth\u00F4ne (V 8)"
+,"LATITUDE":46.3077457
+,"LONGITUDE":7.5319922
+}
+,{
+"FORMERICHE":"\u003Cp class=\"gpsr_formePatois\"\u003Efr\u00F2m\uEC03dzou\u003C\/p\u003E"
+,"LANGUE":"patois"
+,"LOCALISATION":"Farvagny-le-Grand (F 4)"
+,"LATITUDE":46.7219053
+,"LONGITUDE":7.0661634
+}
+]
+}
+
+
+
+
