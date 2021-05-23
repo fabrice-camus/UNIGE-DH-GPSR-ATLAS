@@ -19,6 +19,10 @@ function initMap() {
 
 	//Récupère les formes riches "geo-précises"
 	var formesRichesPrecises = getData("../../data/formesRichesPrecises.json")
+	//Récupère les formes riches "geo-vagues"
+	var formesRichesVagues = getData("../../data/formesRichesVagues.json")
+
+
 
 	//Paramétrage initial de la carte
 	GPSRMap = L.map('map').setView([initLat, initLong], initZoom);
@@ -127,6 +131,24 @@ function initMap() {
 		}
 		
 	}
+	
+	
+	for (var canton of formesRichesVagues.cantons) {
+		//Création du Marker pour le canton
+		var marker = L.marker([canton.LATITUDE, canton.LONGITUDE], {opacity: 1, });
+		GPSRMap.addLayer(marker);
+		var formesPopup="";
+		
+		for(var forme of canton.lesformes){
+			formesPopup="<p>".concat(formesPopup).concat(forme.FORMERICHE).concat(" - ").concat(forme.LOCALISATION).concat("</p>");
+		}
+				//Génére la popup 
+		marker.bindPopup(formesPopup);
+
+		
+	}
+	
+	
 	
 	//Ajoute les différents layers dans la map
 	GPSRMap.addLayer(markersGroup);

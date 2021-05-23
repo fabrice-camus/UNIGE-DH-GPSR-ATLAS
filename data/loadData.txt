@@ -18,3 +18,11 @@ begin
    DBMS_OUTPUT.put_line(pkg_fca_atlas.formesrichesprecises2json(65848));
 end;
 /
+
+set SERVEROUTPUT ON
+declare
+    formesRichesJsons clob;
+begin 
+   DBMS_OUTPUT.put_line(pkg_fca_atlas.formesRichesVagues2JSON(65848));
+end;
+/

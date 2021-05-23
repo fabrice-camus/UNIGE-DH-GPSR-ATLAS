@@ -1,0 +1,108 @@
+{
+"cantons":[
+{
+"CODE":"Vd"
+,"LATITUDE":46.4958
+,"LONGITUDE":6.5856
+,"lesformes":[
+{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efromajoz\u003C\/span\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"district de Vevey (Vd 3)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efroumaige\u003C\/span\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"district de Vevey (Vd 3)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfremadzo\u00BB\u003C\/span\u003E"
+,"LANGUE":"patois"
+,"LIENPROGLANGUE":"PAT"
+,"LOCALISATION":"district d\u0027Aigle (Vd 1)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfroum\u00E2dzo\u00BB\u003C\/span\u003E"
+,"LANGUE":"patois"
+,"LIENPROGLANGUE":"PAT"
+,"LOCALISATION":"portion de la r\u00E9gion du Jorat (Vd 3)"
+}
+]
+}
+,{
+"CODE":"V"
+,"LATITUDE":46.0117
+,"LONGITUDE":7.5421
+,"lesformes":[
+]
+}
+,{
+"CODE":"G"
+,"LATITUDE":46.1779
+,"LONGITUDE":6.2292
+,"lesformes":[
+]
+}
+,{
+"CODE":"F"
+,"LATITUDE":46.8198
+,"LONGITUDE":7.2153
+,"lesformes":[
+{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC09dzo\u003C\/span\u003E"
+,"LANGUE":"patois"
+,"LIENPROGLANGUE":"PAT"
+,"LOCALISATION":"Haute-Gl\u00E2ne (F 3)"
+}
+]
+}
+,{
+"CODE":"N"
+,"LATITUDE":46.9716
+,"LONGITUDE":6.9128
+,"lesformes":[
+{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfermadge\u00BB\u003C\/span\u003E"
+,"LANGUE":"ancien patois"
+,"LIENPROGLANGUE":"ANCPAT"
+,"LOCALISATION":"district de Neuch\u00E2tel (N 6)"
+}
+]
+}
+,{
+"CODE":"J"
+,"LATITUDE":47.4212
+,"LONGITUDE":7.0072
+,"lesformes":[
+{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003Efrom\u00E8dj\u003C\/span\u003E"
+,"LANGUE":"patois"
+,"LIENPROGLANGUE":"PAT"
+,"LOCALISATION":"Ajoie, district de Porrentruy (J 6)"
+}
+]
+}
+,{
+"CODE":"B"
+,"LATITUDE":47.0364
+,"LONGITUDE":7.4048
+,"lesformes":[
+{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Eformaige\u003C\/span\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"district de Moutier (B 3)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efourmage\u003C\/span\u003E"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"district de Moutier (B 3)"
+}
+]
+}
+]
+}
+

@@ -13,4 +13,6 @@ Version 1.0
 Version 2.0
 - Mise en place de layerGroup/LayerContol pour les langues (nécessite le sous plugin leaflet.markercluster.layersupport)
  
-        
+Version 3.0
+- Dataset : liste des formes géo-vagues pour le lemme FROMAGE au format JSON        
+- Affichage des formes dans une popup d'un marker par canton, avec la bonne typographie (selon la langue)
