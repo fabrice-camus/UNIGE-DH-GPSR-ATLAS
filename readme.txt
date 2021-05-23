@@ -10,5 +10,7 @@ Version 1.0
 - Cluster pour les formes au même emplacement
 - Contour des cantons romands (source geojson)
 
+Version 2.0
+- Mise en place de layerGroup/LayerContol pour les langues (nécessite le sous plugin leaflet.markercluster.layersupport)
  
         

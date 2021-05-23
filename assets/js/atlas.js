@@ -45,7 +45,7 @@ function initMap() {
 		maxClusterRadius:0 --> permet de ne regrouper que les formes d'un même point !
 		zoomToBoundsOnClick est "sans effet" du coup
 	*/
-	var markersGroup = L.markerClusterGroup({
+	var markersGroup = L.markerClusterGroup.layerSupport({
 		spiderfyOnMaxZoom: true,
 		showCoverageOnHover: false, 
 		zoomToBoundsOnClick: false,
@@ -73,6 +73,22 @@ function initMap() {
 		tooltipAnchor:  [40, -40]
 	});
 
+	// Création de groupLayer pour les langues
+	// La liste des langues pour les formes est fixe.
+	var layerPatois = L.layerGroup();
+	var layerAncienPatois = L.layerGroup();
+	var layerFrancaisRegional = L.layerGroup();
+	var layerAncienFrancaisRegional = L.layerGroup();
+	var layerLatin = L.layerGroup();
+	var languesChoose = {
+		"Patois": layerPatois,
+		"Ancien patois":layerAncienPatois,
+		"Français régional":layerFrancaisRegional,
+		"Ancien français régional":layerAncienFrancaisRegional,
+		"Latin":layerLatin
+	};
+	L.control.layers(null,languesChoose).addTo(GPSRMap);
+
 
 	// Création des markers/cluster 
 	for (var forme of formesRichesPrecises.lesformes) {
@@ -86,12 +102,43 @@ function initMap() {
 			permanent: true,
 			direction: 'center'
 		  });
-		//Ajout le marker dans le groupe
+		//Ajout le marker dans le cluster
 		markersGroup.addLayer(marker);
+		
+		//Ajout dans les layer de langues.
+		//En utilisant le sous-plugin leaflet.markercluster.layersupport, les clusters sont dynamiquement ajustés
+		switch (forme.LIENPROGLANGUE) {
+		  case 'PAT':
+			layerPatois.addLayer(marker);
+			break;
+		  case 'ANCPAT':
+			layerAncienPatois.addLayer(marker);
+			break;
+		  case 'FRAREG':
+			layerFrancaisRegional.addLayer(marker);
+			break;
+		  case 'ANCFRAREG':
+			layerAncienFrancaisRegional.addLayer(marker);
+			break;
+		  case 'LAT':
+			layerLatin.addLayer(marker);
+			break;
+
+		}
+		
 	}
 	
-	//Ajoute le groupe de marker dans sur la map.
+	//Ajoute les différents layers dans la map
 	GPSRMap.addLayer(markersGroup);
+	GPSRMap.addLayer(layerPatois);
+	GPSRMap.addLayer(layerAncienPatois);
+	GPSRMap.addLayer(layerFrancaisRegional);
+	GPSRMap.addLayer(layerAncienFrancaisRegional);
+	GPSRMap.addLayer(layerLatin);
+
+	
+
+	
 	
 }
 

@@ -17,11 +17,12 @@ CREATE OR REPLACE PACKAGE BODY PKG_FCA_ATLAS AS
         l_atlas    CLOB;
     BEGIN
         OPEN l_cursor FOR 
-            select distinct '<p class="'||f.cssclasseforme||'">'|| FORMETYPOGRAPHIE ||'</p>' as formeriche, FormeLangueLibelle as langue, l.libelle ||' ('||l.code||')' as localisation, l.latitude,l.longitude 
+            select distinct '<p class="'||f.cssclasseforme||'">'|| FORMETYPOGRAPHIE ||'</p>' as formeriche, FormeLangueLibelle as langue,l.lienprog as lienproglangue, l.libelle ||' ('||l.code||')' as localisation, l.latitude,l.longitude 
 			FROM V_WEB_FORMES_LIS f
 			INNER JOIN formerefs fref ON f.pkforme=fref.num_formes
 			INNER JOIN localisations l ON l.numero=fref.num_localisations
 			INNER JOIN type_localisations tl on tl.numero=l.num_type_loc
+			INNER JOIN langues l on l.numero=f.num_langues
 			where num_entetes=p_entetepk and tl.abreviation IN ('C','H');
 
         apex_json.initialize_clob_output;
