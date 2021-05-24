@@ -6,28 +6,36 @@
 ,"LONGITUDE":6.5856
 ,"lesformes":[
 {
-"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efromajoz\u003C\/span\u003E"
-,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
-,"LIENPROGLANGUE":"ANCFRAREG"
-,"LOCALISATION":"district de Vevey (Vd 3)"
-}
-,{
-"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efroumaige\u003C\/span\u003E"
-,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
-,"LIENPROGLANGUE":"ANCFRAREG"
-,"LOCALISATION":"district de Vevey (Vd 3)"
-}
-,{
 "FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfremadzo\u00BB\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fremadzo"
+,"DUPLTRANSRICHE":"!!!!!!!!"
 ,"LANGUE":"patois"
 ,"LIENPROGLANGUE":"PAT"
 ,"LOCALISATION":"district d\u0027Aigle (Vd 1)"
 }
 ,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efromajoz\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fromajoz"
+,"DUPLTRANSRICHE":"!!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"district de Vevey (Vd 3)"
+}
+,{
 "FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfroum\u00E2dzo\u00BB\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"froumadzo"
+,"DUPLTRANSRICHE":"!!!!!P!!!"
 ,"LANGUE":"patois"
 ,"LIENPROGLANGUE":"PAT"
 ,"LOCALISATION":"portion de la r\u00E9gion du Jorat (Vd 3)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efroumaige\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"froumaige"
+,"DUPLTRANSRICHE":"!!!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"district de Vevey (Vd 3)"
 }
 ]
 }
@@ -52,6 +60,8 @@
 ,"lesformes":[
 {
 "FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC09dzo\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fremadzo"
+,"DUPLTRANSRICHE":"!!Y!T!!!"
 ,"LANGUE":"patois"
 ,"LIENPROGLANGUE":"PAT"
 ,"LOCALISATION":"Haute-Gl\u00E2ne (F 3)"
@@ -65,6 +75,8 @@
 ,"lesformes":[
 {
 "FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfermadge\u00BB\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fermadge"
+,"DUPLTRANSRICHE":"!!!!!!!!"
 ,"LANGUE":"ancien patois"
 ,"LIENPROGLANGUE":"ANCPAT"
 ,"LOCALISATION":"district de Neuch\u00E2tel (N 6)"
@@ -78,6 +90,8 @@
 ,"lesformes":[
 {
 "FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003Efrom\u00E8dj\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fromedj"
+,"DUPLTRANSRICHE":"!!!!F!!"
 ,"LANGUE":"patois"
 ,"LIENPROGLANGUE":"PAT"
 ,"LOCALISATION":"Ajoie, district de Porrentruy (J 6)"
@@ -91,12 +105,16 @@
 ,"lesformes":[
 {
 "FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Eformaige\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"formaige"
+,"DUPLTRANSRICHE":"!!!!!!!!"
 ,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
 ,"LIENPROGLANGUE":"ANCFRAREG"
 ,"LOCALISATION":"district de Moutier (B 3)"
 }
 ,{
 "FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efourmage\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fourmage"
+,"DUPLTRANSRICHE":"!!!!!!!!"
 ,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
 ,"LIENPROGLANGUE":"ANCFRAREG"
 ,"LOCALISATION":"district de Moutier (B 3)"
@@ -105,4 +123,3 @@
 }
 ]
 }
-

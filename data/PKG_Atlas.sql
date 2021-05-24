@@ -13,21 +13,6 @@ END PKG_FCA_ATLAS;
 
 /
 
-CREATE OR REPLACE PACKAGE PKG_FCA_ATLAS AS
-	--Retourne la liste des formes riches "précises" (gps) au format JSON
-    FUNCTION formesRichesPrecises2JSON (
-        p_entetepk NUMBER
-    ) RETURN CLOB;
-
-	--Retourne la liste des formes riches non-précises (gps), par canton, au format JSON
-    FUNCTION formesRichesVagues2JSON (
-        p_entetepk NUMBER
-    ) RETURN CLOB;
-
-END PKG_FCA_ATLAS;
-
-/
-
 CREATE OR REPLACE PACKAGE BODY PKG_FCA_ATLAS AS
 
     FUNCTION formesRichesPrecises2JSON (
@@ -75,7 +60,7 @@ CREATE OR REPLACE PACKAGE BODY PKG_FCA_ATLAS AS
 				apex_json.write('LATITUDE',canton.latitude);
 				apex_json.write('LONGITUDE',canton.longitude);
 				
-				OPEN l_cursorFormes FOR select distinct '<span class="'||f.cssclasseforme||'">'|| FORMETYPOGRAPHIE ||'</span>' as formeriche, FormeLangueLibelle as langue,l.lienprog as lienproglangue, l.libelle ||' ('||l.code||')' as localisation 
+				OPEN l_cursorFormes FOR select distinct '<span class="'||f.cssclasseforme||'">'|| FORMETYPOGRAPHIE ||'</span>' as formeriche, f.formeduplappauvrie as formeduplappauvrie,f.dupltransriche as dupltransriche, FormeLangueLibelle as langue,l.lienprog as lienproglangue, l.libelle ||' ('||l.code||')' as localisation 
 				FROM V_WEB_FORMES_LIS f
 				INNER JOIN formerefs fref ON f.pkforme=fref.num_formes
 				INNER JOIN localisations l ON l.numero=fref.num_localisations
@@ -84,7 +69,10 @@ CREATE OR REPLACE PACKAGE BODY PKG_FCA_ATLAS AS
 				INNER JOIN locarbreplat arbre ON arbre.numlocalisation=l.numero
 				INNER JOIN localisations locCanton ON locCanton.numero=arbre.numestinclusdans
 				INNER JOIN type_localisations typeCanton ON typeCanton.numero=locCanton.num_type_loc
-				where num_entetes=p_entetepk and loccanton.numero=canton.numero and tl.abreviation NOT IN ('C','H') ;
+				where num_entetes=p_entetepk and loccanton.numero=canton.numero and tl.abreviation NOT IN ('C','H') 
+				ORDER BY
+                    FormeDuplAppauvrie,
+                    nlssort(DuplTransRiche,'NLS_SORT=binary');
 				
 				
 				

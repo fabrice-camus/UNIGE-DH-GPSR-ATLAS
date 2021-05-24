@@ -16,3 +16,13 @@ Version 2.0
 Version 3.0
 - Dataset : liste des formes géo-vagues pour le lemme FROMAGE au format JSON        
 - Affichage des formes dans une popup d'un marker par canton, avec la bonne typographie (selon la langue)
+
+Version 4.0
+- Icone pour chaque canton (drapeau)
+- Choix de l'affichage des noms de lieux
+- Affinage des CSS
+
+
+
+Améliorations possibles:
+- Délimiter la zone du Jura Bernois francophone au lieu d'avoir tout le canton de Berne (--> refaire geoJson)

@@ -1,5 +1,9 @@
-/*Import de la police d'écriture adaptée au formes riches du GPSR*/
-/* OK*/
+/*
+Fabrice Camus
+Css pour l'Atlas
+Projet : Unige - DH - Visualisation - SP 2021
+*/
+
 @font-face{
     font-family: 'GrasseGPSR';
     src : url('../fonts/Grasse-GPSR15-Italic.woff');
@@ -10,23 +14,35 @@
     src : url('../fonts/DidotReg-GPSR15-Regular.woff');
 }
 
-/*La classe pour le style des formes affichées sur la map*/
+/*
+	Polices du GPSR
+*/
 .gpsr_formePatois{
     font-family: GrasseGPSR !important;
     font-size: 20pt;
     
 }
-
-/*La classe pour le style des formes affichées sur la map*/
 .gpsr_formeFraReg{
     font-family: didotRomainGPSR !important;
     font-size: 20pt;
-	font-weight: bold;
-	
-    
+	font-weight: bold;   
 }
 
-/* OK*/
+/*
+	Classes CSS pour affichage dans les popups
+*/
+.leaflet-popup-content .gpsr_formePatois{
+    font-family: GrasseGPSR !important;
+    font-size: 14pt;   
+}
+
+.leaflet-popup-content .gpsr_formeFraReg{
+    font-family: didotRomainGPSR !important;
+    font-size: 14pt;
+	
+}
+
+
 /* la carte doit avoir une hauteur sinon elle n'apparaît pas */
 #map {
     height: 1000px;
@@ -34,26 +50,24 @@
     margin: auto;
 }
 
-/* TODO */
+
 /*paramètres de l'étiquette contenant la forme riche*/
-
-
 .leaflet-tooltip{
 	background: none !important;
     border: none !important;
     box-shadow: none !important;
 }
-.marker-cluster-medium {
-    background-color: rgba(0, 142, 189, 0.3) !important; 
 
+
+.marker-cluster-medium {
+    background-color: rgba(0, 142, 189, 0.3) !important;
 }
 
 .marker-cluster-medium div {
     background-color: rgba(0, 142, 189, 0.6) !important;
 }
 
-
-/* OK */
+/* Path=zone intéractive pour chaque canton */
 path {
     fill: rgb(0,0,0,0.2);  
     stroke: rgb(0,51,153);

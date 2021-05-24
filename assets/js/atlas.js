@@ -1,13 +1,51 @@
 /*
 Fabrice Camus
-Fonctions javascript nécessaires à l'atlas linguistique
+Script de création de l'Atlas
 Projet : Unige - DH - Visualisation - SP 2021
 */
+
+//Variables globales
+
+//Récupère les formes riches "geo-précises"
+var formesRichesPrecises = getData("../../data/formesRichesPrecises.json");
+//Récupère les formes riches "geo-vagues"
+var formesRichesVagues = getData("../../data/formesRichesVagues.json");
+//Map qui va contenir l'état actif (true/false) pour les layers de languge
+var activeLayersLangues = new Map();
+
 
 // Fonction d'initialisation de la carte
 window.onload = function () {
 	initMap();
 };
+
+//Retourne les formes vagues par canton (qu'on cherche par la latitude)
+function getFormesCantonByLat(lat){
+	for(var leCanton of formesRichesVagues.cantons){
+		if (leCanton.LATITUDE==lat) return leCanton.lesformes;
+	}
+}
+
+
+//Alimente le popup du Canton avec les formes en tenant compte des layers de langues activées
+function onMarkerClick(e) {
+	//Cherche le canton dans les datas JSON par la latitude (il n'y a pas d'ID dans les marker)
+	var lat=e.sourceTarget.getLatLng().lat;
+	
+	var popupContent="<p><i>Formes dont la localisation n'est pas précise</i></p>";
+	var formesStr="";
+	for(var forme of getFormesCantonByLat(lat)){
+		
+		if(activeLayersLangues.get(forme.LANGUE)){
+			popupContent=popupContent.concat("<p>",forme.FORMERICHE," - ",forme.LOCALISATION,"</p>");
+			
+		}
+	}
+	
+	e.target.getPopup().setContent(popupContent);
+	e.target.getPopup().update();
+	
+}
 
 
 function initMap() {
@@ -17,26 +55,22 @@ function initMap() {
 	var initZoom = 9;
 	var GPSRMap = null;
 
-	//Récupère les formes riches "geo-précises"
-	var formesRichesPrecises = getData("../../data/formesRichesPrecises.json")
-	//Récupère les formes riches "geo-vagues"
-	var formesRichesVagues = getData("../../data/formesRichesVagues.json")
+	//Map qui va contenir les icônes des cantons
+	var iconsCantons = new Map();
+	
 
-
+	//Tiles
+	var tileWithLabel = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+	});
+	
+	var tileWithNoLabel = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> 	contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+		});
 
 	//Paramétrage initial de la carte
-	GPSRMap = L.map('map').setView([initLat, initLong], initZoom);
+	GPSRMap = L.map('map', {center:[initLat, initLong], zoom:initZoom,zoomSnap:0.25,zoomDelta: 0.25,wheelPxPerZoomLevel:100,layers:[tileWithLabel]});
+	
 	GPSRMap.createPane('labels');
-		
-	//Tiles
-	L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
-		attribution: '©OpenStreetMap, ©CartoDB'
-	}).addTo(GPSRMap);
-
-	L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
-		attribution: '©OpenStreetMap, ©CartoDB'
-	}).addTo(GPSRMap);
-
 	
 	//Les frontières cantonales proviennent de
 	//https://github.com/zdavatz/covid19_ch/tree/master/assets
@@ -76,6 +110,7 @@ function initMap() {
 		iconAnchor:   [10, 20],
 		tooltipAnchor:  [40, -40]
 	});
+	
 
 	// Création de groupLayer pour les langues
 	// La liste des langues pour les formes est fixe.
@@ -91,10 +126,18 @@ function initMap() {
 		"Ancien français régional":layerAncienFrancaisRegional,
 		"Latin":layerLatin
 	};
-	L.control.layers(null,languesChoose).addTo(GPSRMap);
+	//Création du choix de tile
+	var baseTile = {
+		"Avec noms de lieu": tileWithLabel,
+		"Sans noms de lieu": tileWithNoLabel
+	};
+	L.control.layers(baseTile,languesChoose).addTo(GPSRMap);
 
 
-	// Création des markers/cluster 
+	/* 
+		Formes géo-précises
+		Création des markers/cluster 
+	*/
 	for (var forme of formesRichesPrecises.lesformes) {
 		//Création du Marker
 		var marker = L.marker([forme.LATITUDE, forme.LONGITUDE], {icon:informationIcon,opacity: 0.4, });
@@ -132,20 +175,42 @@ function initMap() {
 		
 	}
 	
+	//Journalise l'état d'activation des layers pour les langues
+	GPSRMap.on({
+		overlayadd: function(e) {
+			 activeLayersLangues.set(e.name.toLowerCase(),true);
+			},
+		overlayremove: function(e) {
+			activeLayersLangues.set(e.name.toLowerCase(),false);
+			}
+		});
+	
+	
+	/* 
+		Formes géo-vagues
+		Création des markers
+	*/
+	for (var canton of formesRichesVagues.cantons) {
+		var codeCanton=canton.CODE.toLowerCase();
+		var icon = L.icon({
+			iconUrl: './assets/img/'+codeCanton+'.svg',  
+			iconSize:     [50, 50],
+			iconAnchor:   [0, 0],			
+		});
+		iconsCantons.set(codeCanton,icon);
+
+	}
 	
 	for (var canton of formesRichesVagues.cantons) {
 		//Création du Marker pour le canton
-		var marker = L.marker([canton.LATITUDE, canton.LONGITUDE], {opacity: 1, });
+		var iconC= iconsCantons.get(canton.CODE.toLowerCase());
+		var marker = L.marker([canton.LATITUDE, canton.LONGITUDE], {icon:iconC,opacity: 1 });
 		GPSRMap.addLayer(marker);
-		var formesPopup="";
 		
-		for(var forme of canton.lesformes){
-			formesPopup="<p>".concat(formesPopup).concat(forme.FORMERICHE).concat(" - ").concat(forme.LOCALISATION).concat("</p>");
-		}
-				//Génére la popup 
-		marker.bindPopup(formesPopup);
-
+		marker.on('click', onMarkerClick);
 		
+		//Génére la popup + augment la largeur max pour afficher chaque forme sur une ligne
+		marker.bindPopup(null,{maxWidth:500});		
 	}
 	
 	
