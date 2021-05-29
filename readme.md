@@ -1,7 +1,9 @@
 # UNIGE-DH-GPSR-ATLAS
 
 Prototype d'atlas linguistique des formes pour le Glossaire des patois de la Suisse romande
+
 But : Valorisation des variantes phonétiques
+
 Projet réalisé dans le cadre du cours Unige-DH-Visualisation
 
 
