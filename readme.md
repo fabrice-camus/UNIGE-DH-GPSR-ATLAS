@@ -9,14 +9,22 @@ Projet réalisé dans le cadre du cours Unige-DH-Visualisation
 
 ## Contenu
 
-Le prototype
-* est développé en html/css/javascript
+* Affichage des variantes phonétiques du lemme FROMAGE
+* Les formes "géo-précises" :
+	* sont affichées à leur emplacement géographique
+	* leur localisation est affichable dans une info-bulle sur l'icône "i"
+	* sont regroupées dans un "cluster" pour un même emplacement géographique
+* Les formes dont la précision géographique est inconnue) sont affichables en cliquant sur le drapeau cantonal
+* Les langues des formes servent de critères d'affichage dans un tableau de contrôle en haut à droite de la carte
+
+Le prototype est développé :
+* en html/css/javascript
 * avec la libraire [Leaflet](https://leafletjs.com/)
-* avec les plugins (disponibles dans la liste des plugins [Leaflet](https://leafletjs.com/)  : 
+* avec les plugins (disponibles dans la liste des plugins [Leaflet](https://leafletjs.com/))  : 
 	* Leaflet.markercluster-1.4.1
 	* leaflet.markercluster.layersupport.js
 * les données sont fournies par le GPSR et proviennent de la liste des formes du lemme FROMAGE (au format JSON)
-* les frontières cantonales proviennent du dépot github de [zdavatz](https://github.com/zdavatz/covid19_ch/tree/master/assets)
+* les frontières cantonales (geoJSON) proviennent du dépot github de [zdavatz](https://github.com/zdavatz/covid19_ch/tree/master/assets)
   
 
 Démo en ligne [ici](https://fabrice-camus.github.io/UNIGE-DH-GPSR-ATLAS/Fromage.html)
