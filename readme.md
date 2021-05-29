@@ -30,9 +30,6 @@ Les données du GPSR sont propriétés exclusives du Glossaire des patois de la 
 
 
 Leaflet.markercluster is free software, and may be redistributed under the MIT-LICENSE.
-
-[![Build Status](https://travis-ci.org/Leaflet/Leaflet.markercluster.png?branch=master)](https://travis-ci.org/Leaflet/Leaflet.markercluster)
-
 [![license](https://img.shields.io/github/license/ghybs/leaflet.markercluster.layersupport.svg)](LICENSE)
 
 Leaflet.MarkerCluster.LayerSupport is distributed under the
