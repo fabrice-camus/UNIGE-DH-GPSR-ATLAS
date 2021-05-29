@@ -13,13 +13,15 @@ Le prototype
 * avec les plugins (disponibles dans la liste des plugins [Leaflet](https://leafletjs.com/)  : 
 	* Leaflet.markercluster-1.4.1
 	* leaflet.markercluster.layersupport.js
-* les données proviennent de la liste des formes du lemme FROMAGE (format JSON, par extraction du SII)
+* les données sont fournies par le GPSR et proviennent de la liste des formes du lemme FROMAGE (au format JSON)
 * les frontières cantonales proviennent du dépot github de [zdavatz](https://github.com/zdavatz/covid19_ch/tree/master/assets)
   
 
 
 ## Licences
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Mes fichiers sources sont sous licence <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
+
+Les données du GPSR sont propriétés exclusives du Glossaire des patois de la Suisse romande et ne peuvent être exploitées de quelconque manière (droits d'auteur)
 
 
 
@@ -34,10 +36,9 @@ Leaflet.MarkerCluster.LayerSupport is distributed under the
 Leaflet.markercluster.
 
 
-## Cite this repository
+## Citer ce repository
 Fabrice Camus,  _UNIGE-DH-GPSR-ATLAS: Prototype d'atlas linguistique des formes du GPSR_, Genève: Université de Genève, 2020, [https://github.com/fabrice-camus/UNIGE-DH-GPSR-ATLAS](https://github.com/fabrice-camus/UNIGE-DH-GPSR-ATLAS).
 
-Please keep me posted if you use this data! simon.gabay[at]unige.ch
 
 ## Contact
-simon.gabay[at]unige.ch
+fabrice.camus[at]etu.unige.ch
