@@ -9,7 +9,7 @@ Projet : Unige - DH - Visualisation - SP 2021
 //Récupère les formes riches "geo-précises"
 var formesRichesPrecises = getData("data/formesRichesPrecises.json");
 //Récupère les formes riches "geo-vagues"
-var formesRichesVagues = getData("/data/formesRichesVagues.json");
+var formesRichesVagues = getData("data/formesRichesVagues.json");
 //Map qui va contenir l'état actif (true/false) pour les layers de languge
 var activeLayersLangues = new Map();
 
