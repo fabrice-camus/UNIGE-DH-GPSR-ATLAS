@@ -105,7 +105,7 @@ function initMap() {
 		on ne sait pas vraiment où elle est géographiquement placée
 	*/
 	var informationIcon = L.icon({
-		iconUrl: './assets/img/info-solid.svg',  
+		iconUrl: 'assets/img/info-solid.svg',  
 		iconSize:     [15, 15],
 		iconAnchor:   [10, 20],
 		tooltipAnchor:  [40, -40]
@@ -193,7 +193,7 @@ function initMap() {
 	for (var canton of formesRichesVagues.cantons) {
 		var codeCanton=canton.CODE.toLowerCase();
 		var icon = L.icon({
-			iconUrl: '/assets/img/'+codeCanton+'.svg',  
+			iconUrl: 'assets/img/'+codeCanton+'.svg',  
 			iconSize:     [50, 50],
 			iconAnchor:   [0, 0],			
 		});
