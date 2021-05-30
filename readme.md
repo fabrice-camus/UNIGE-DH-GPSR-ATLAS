@@ -9,13 +9,15 @@ Projet réalisé dans le cadre du cours Unige-DH-Visualisation
 
 ## Contenu
 
-* Affichage des variantes phonétiques du lemme FROMAGE
+* Affichage des variantes phonétiques du lemme FROMAGE sur une carte de la Suisse romande
+* Les formes patoises sont affichées dans leur police grasse penchée, les autres sont en romain
 * Les formes "géo-précises" :
 	* sont affichées à leur emplacement géographique
 	* leur localisation est affichable dans une info-bulle sur l'icône "i"
 	* sont regroupées dans un "cluster" pour un même emplacement géographique
 * Les formes dont la précision géographique est inconnue) sont affichables en cliquant sur le drapeau cantonal
 * Les langues des formes servent de critères d'affichage dans un tableau de contrôle en haut à droite de la carte
+* Le fond de carte est paramétrable : affichage ou non des noms de lieux
 
 Le prototype est développé :
 * en html/css/javascript
@@ -33,7 +35,7 @@ Démo en ligne [ici](https://fabrice-camus.github.io/UNIGE-DH-GPSR-ATLAS/Fromage
 ## Licences
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Mes fichiers sources sont sous licence <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
 
-Les données du GPSR sont propriétés exclusives du Glossaire des patois de la Suisse romande et ne peuvent être exploitées de quelconque manière (droits d'auteur)
+Les données du GPSR tout comme les polices de caractères sont propriétés exclusives du Glossaire des patois de la Suisse romande et ne peuvent être exploitées de quelconque manière.
 
 
 
