@@ -131,7 +131,7 @@ function initMap() {
 		"Avec noms de lieu": tileWithLabel,
 		"Sans noms de lieu": tileWithNoLabel
 	};
-	L.control.layers(baseTile,languesChoose,{collapsed: false}).addTo(GPSRMap);
+	L.control.layers(baseTile,languesChoose,{collapsed:false}).addTo(GPSRMap);
 
 
 	/* 
