@@ -6,16 +6,22 @@ But : Valorisation des variantes phonétiques
 
 Projet réalisé dans le cadre du cours Unige-DH-Visualisation
 
+## Contexte
+L'application [Web](https://portail-gpsr.unine.ch) du Glossaire des patois de la Suisse romande documente les lemmes et leurs formes dans les patois, les langues anciennes et le français régional de la Suisse romande.
+Chaque forme est mentionnée avec ses localisations, plus ou moins précise. Les formes patoises sont généralement référencées dans des communes ou hameau. Certaines formes, dont les formes anciennes ou régionales, ont une localisation plus vague, comme un district, une région ou un canton. Une forme référencée dans un canton n'indique pas que cette forme est utilisée dans tout le canton, mais plutôt qu'elle a été recensée dans le canton mais à un emplacement précis inconnu.
 
-## Contenu
+![100% center](images/formesFromageWeb.png)
+Figure 1 - Formes du lemme FROMAGE et ses différentes localisations selon la nomenclature du GPSR
 
-* Affichage des variantes phonétiques du lemme FROMAGE sur une carte de la Suisse romande
+## Contenu du prototype
+
+* Affichage des variantes phonétiques (formes) du lemme FROMAGE sur une carte de la Suisse romande
 * Les formes patoises sont affichées dans leur police grasse penchée, les autres sont en romain
-* Les formes "géo-précises" :
+* Les formes dont l'emplacement géographique est une commune ou un hameau :
 	* sont affichées à leur emplacement géographique
-	* leur localisation est affichable dans une info-bulle sur l'icône "i"
+	* leur localisation (selon le GPSR) est affichable dans une info-bulle sur l'icône "i"
 	* sont regroupées dans un "cluster" pour un même emplacement géographique
-* Les formes dont la précision géographique est inconnue) sont affichables en cliquant sur le drapeau cantonal
+* Les formes dont la provenance géographique est inconnue ou trop vague (un district, un canton, une région) sont affichables en cliquant sur le drapeau cantonal
 * Les langues des formes servent de critères d'affichage dans un tableau de contrôle en haut à droite de la carte
 * Le fond de carte est paramétrable : affichage ou non des noms de lieux
 
@@ -30,6 +36,12 @@ Le prototype est développé :
   
 
 Démo en ligne [ici](https://fabrice-camus.github.io/UNIGE-DH-GPSR-ATLAS/Fromage.html)
+
+## Finalisation
+Le prototype a été présenté le 26.05.2021 à un rédacteur du GPSR et a donnée entière satisfaction. 
+L'atlas linguistique des formes sera accessible dans le portail web à deux endroits distincts : 
+* Depuis la liste des formes d'un lemme (module de recherche avancée / Recherche de lemmes, donnant accès à l'écran de la figure 1)
+* Depuis la liste des formes qui résultera d'une recherche spécifique exploitant différents critères linguistiques ou géographiques (module de recherche avancée / Recherche de formes)
 
 
 ## Licences
