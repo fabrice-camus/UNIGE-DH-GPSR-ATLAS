@@ -8,7 +8,7 @@ Projet réalisé dans le cadre du cours Unige-DH-Visualisation
 
 ## Contexte
 L'application [Web](https://portail-gpsr.unine.ch) du Glossaire des patois de la Suisse romande documente les lemmes et leurs formes dans les patois, les langues anciennes et le français régional de la Suisse romande.
-Chaque forme est mentionnée avec ses localisations, plus ou moins précise. Les formes patoises sont généralement référencées dans des communes ou hameau. Certaines formes, dont les formes anciennes ou régionales, ont une localisation plus vague, comme un district, une région ou un canton. Une forme référencée dans un canton n'indique pas que cette forme est utilisée dans tout le canton, mais plutôt qu'elle a été recensée dans le canton mais à un emplacement précis inconnu.
+Chaque forme est mentionnée avec ses localisations, plus ou moins précises. Les formes patoises sont généralement référencées dans des communes ou hameaux. Certaines formes, dont les formes anciennes ou régionales, ont une localisation plus vague, comme un district, une région ou un canton. Une forme référencée dans un canton n'indique pas que cette forme est utilisée dans tout le canton, mais plutôt qu'elle a été recensée dans le canton mais à un emplacement précis inconnu.
 
 ![100% center](images/formesFromageWeb.png)
 Figure 1 - Formes du lemme FROMAGE et ses différentes localisations selon la nomenclature du GPSR
