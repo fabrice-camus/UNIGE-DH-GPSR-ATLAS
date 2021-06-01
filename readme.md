@@ -2,7 +2,9 @@
 
 Prototype d'atlas linguistique des formes pour le Glossaire des patois de la Suisse romande
 
-But : Valorisation des formes (variantes phonétiques) par une cartographique dialectale dynamique
+But : Cartographie dialectale
+* Valorisation des formes (variantes phonétiques)
+* Permettre l'étude des variations linguistiques selon l'axe géographique (en opposition avec la lecture des articles nécessitant une interprétation de ceux-ci)
 
 Projet réalisé dans le cadre du cours Unige-DH-Visualisation-2021
 
