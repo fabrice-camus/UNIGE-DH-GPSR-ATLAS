@@ -2,9 +2,9 @@
 
 Prototype d'atlas linguistique des formes pour le Glossaire des patois de la Suisse romande
 
-But : Valorisation des variantes phonétiques
+But : Valorisation des formes (variantes phonétiques) par une cartographique dialectale dynamique
 
-Projet réalisé dans le cadre du cours Unige-DH-Visualisation
+Projet réalisé dans le cadre du cours Unige-DH-Visualisation-2021
 
 ## Contexte
 L'application [Web](https://portail-gpsr.unine.ch) du Glossaire des patois de la Suisse romande documente les lemmes et leurs formes dans les patois, les langues anciennes et le français régional de la Suisse romande.
@@ -21,7 +21,7 @@ Figure 1 - Formes du lemme FROMAGE et ses différentes localisations selon la no
 	* sont affichées à leur emplacement géographique
 	* leur localisation (selon le GPSR) est affichable dans une info-bulle sur l'icône "i"
 	* sont regroupées dans un "cluster" pour un même emplacement géographique
-* Les formes dont la provenance géographique est inconnue ou trop vague (un district, un canton, une région) sont affichables en cliquant sur le drapeau cantonal
+* Les formes dont la provenance géographique est inconnue ou trop vague (un district, un canton, une région) sont affichables en cliquant sur le drapeau cantonal. 
 * Les langues des formes servent de critères d'affichage dans un tableau de contrôle en haut à droite de la carte
 * Le fond de carte est paramétrable : affichage ou non des noms de lieux
 
@@ -31,7 +31,7 @@ Le prototype est développé :
 * avec les plugins (disponibles dans la liste des plugins [Leaflet](https://leafletjs.com/))  : 
 	* Leaflet.markercluster-1.4.1
 	* leaflet.markercluster.layersupport.js
-* les données sont fournies par le GPSR et proviennent de la liste des formes du lemme FROMAGE (au format JSON)
+* les données sont fournies par le SII du GPSR et proviennent de la liste des formes du lemme FROMAGE (au format JSON). Elles ont été extraites par le code PL/SQL fourni étant donné que le SII n'est pas directement accessible.
 * les frontières cantonales (geoJSON) proviennent du dépot github de [zdavatz](https://github.com/zdavatz/covid19_ch/tree/master/assets)
   
 
