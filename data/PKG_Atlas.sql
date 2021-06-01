@@ -69,7 +69,7 @@ CREATE OR REPLACE PACKAGE BODY PKG_FCA_ATLAS AS
 				INNER JOIN locarbreplat arbre ON arbre.numlocalisation=l.numero
 				INNER JOIN localisations locCanton ON locCanton.numero=arbre.numestinclusdans
 				INNER JOIN type_localisations typeCanton ON typeCanton.numero=locCanton.num_type_loc
-				where num_entetes=p_entetepk and loccanton.numero=canton.numero and tl.abreviation NOT IN ('C','H') 
+				where num_entetes=p_entetepk and loccanton.numero=canton.numero and tl.letype NOT IN ('commune','hameau')
 				ORDER BY
                     FormeDuplAppauvrie,
                     nlssort(DuplTransRiche,'NLS_SORT=binary');

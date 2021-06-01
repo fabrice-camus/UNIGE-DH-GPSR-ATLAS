@@ -14,6 +14,30 @@
 ,"LOCALISATION":"district d\u0027Aigle (Vd 1)"
 }
 ,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfr\u0259madzo\u00BB\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fremadzo"
+,"DUPLTRANSRICHE":"!!Y!!!!!"
+,"LANGUE":"patois"
+,"LIENPROGLANGUE":"PAT"
+,"LOCALISATION":"canton de Vaud (Vd)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfromadzo\u00BB\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fromadzo"
+,"DUPLTRANSRICHE":"!!!!!!!!"
+,"LANGUE":"ancien patois"
+,"LIENPROGLANGUE":"ANCPAT"
+,"LOCALISATION":"canton de Vaud (Vd)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfrom\u00E2dzo\u00BB\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fromadzo"
+,"DUPLTRANSRICHE":"!!!!P!!!"
+,"LANGUE":"ancien patois"
+,"LIENPROGLANGUE":"ANCPAT"
+,"LOCALISATION":"canton de Vaud (Vd)"
+}
+,{
 "FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efromajoz\u003C\/span\u003E"
 ,"FORMEDUPLAPPAUVRIE":"fromajoz"
 ,"DUPLTRANSRICHE":"!!!!!!!!"
@@ -37,6 +61,14 @@
 ,"LIENPROGLANGUE":"ANCFRAREG"
 ,"LOCALISATION":"district de Vevey (Vd 3)"
 }
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfroumajo\u00BB\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"froumajo"
+,"DUPLTRANSRICHE":"!!!!!!!!"
+,"LANGUE":"ancien patois"
+,"LIENPROGLANGUE":"ANCPAT"
+,"LOCALISATION":"canton de Vaud (Vd)"
+}
 ]
 }
 ,{
@@ -51,6 +83,38 @@
 ,"LATITUDE":46.1779
 ,"LONGITUDE":6.2292
 ,"lesformes":[
+{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Eformage\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"formage"
+,"DUPLTRANSRICHE":"!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Gen\u00E8ve (G)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efourmage\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fourmage"
+,"DUPLTRANSRICHE":"!!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Gen\u00E8ve (G)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003E\u00ABfremazo\u00BB\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fremazo"
+,"DUPLTRANSRICHE":"!!!!!!!"
+,"LANGUE":"ancien patois"
+,"LIENPROGLANGUE":"ANCPAT"
+,"LOCALISATION":"canton de Gen\u00E8ve (G)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efrumagiorum\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"frumagiorum"
+,"DUPLTRANSRICHE":"!!!!!!!!!!!"
+,"LANGUE":"latin"
+,"LIENPROGLANGUE":"LAT"
+,"LOCALISATION":"canton de Gen\u00E8ve (G)"
+}
 ]
 }
 ,{
@@ -59,12 +123,84 @@
 ,"LONGITUDE":7.2153
 ,"lesformes":[
 {
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Eformage\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"formage"
+,"DUPLTRANSRICHE":"!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Fribourg (F)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Eformaige\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"formaige"
+,"DUPLTRANSRICHE":"!!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Fribourg (F)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efourmage\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fourmage"
+,"DUPLTRANSRICHE":"!!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Fribourg (F)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efourmaige\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fourmaige"
+,"DUPLTRANSRICHE":"!!!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Fribourg (F)"
+}
+,{
 "FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003Efr\u0259m\uEC09dzo\u003C\/span\u003E"
 ,"FORMEDUPLAPPAUVRIE":"fremadzo"
 ,"DUPLTRANSRICHE":"!!Y!T!!!"
 ,"LANGUE":"patois"
 ,"LIENPROGLANGUE":"PAT"
 ,"LOCALISATION":"Haute-Gl\u00E2ne (F 3)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efremage\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fremage"
+,"DUPLTRANSRICHE":"!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Fribourg (F)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efroumage\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"froumage"
+,"DUPLTRANSRICHE":"!!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Fribourg (F)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efrumage\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"frumage"
+,"DUPLTRANSRICHE":"!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Fribourg (F)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efrumago\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"frumago"
+,"DUPLTRANSRICHE":"!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Fribourg (F)"
+}
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efurmago\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"furmago"
+,"DUPLTRANSRICHE":"!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Fribourg (F)"
 }
 ]
 }
@@ -81,6 +217,14 @@
 ,"LIENPROGLANGUE":"ANCPAT"
 ,"LOCALISATION":"district de Neuch\u00E2tel (N 6)"
 }
+,{
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efroumaige\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"froumaige"
+,"DUPLTRANSRICHE":"!!!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton de Neuch\u00E2tel (N)"
+}
 ]
 }
 ,{
@@ -89,6 +233,14 @@
 ,"LONGITUDE":7.0072
 ,"lesformes":[
 {
+"FORMERICHE":"\u003Cspan class=\"gpsr_formeFraReg\"\u003Efremaige\u003C\/span\u003E"
+,"FORMEDUPLAPPAUVRIE":"fremaige"
+,"DUPLTRANSRICHE":"!!!!!!!!"
+,"LANGUE":"ancien fran\u00E7ais r\u00E9gional"
+,"LIENPROGLANGUE":"ANCFRAREG"
+,"LOCALISATION":"canton du Jura (J)"
+}
+,{
 "FORMERICHE":"\u003Cspan class=\"gpsr_formePatois\"\u003Efrom\u00E8dj\u003C\/span\u003E"
 ,"FORMEDUPLAPPAUVRIE":"fromedj"
 ,"DUPLTRANSRICHE":"!!!!F!!"
@@ -123,3 +275,4 @@
 }
 ]
 }
+
