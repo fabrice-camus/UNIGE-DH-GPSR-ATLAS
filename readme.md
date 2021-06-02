@@ -22,7 +22,7 @@ Figure 1 - Formes du lemme FROMAGE et ses différentes localisations selon la no
 * Les formes dont l'emplacement géographique est une commune ou un hameau :
 	* sont affichées à leur emplacement géographique
 	* leur localisation (selon le GPSR) est affichable dans une info-bulle sur l'icône "i"
-	* sont regroupées dans un "cluster" pour un même emplacement géographique
+	* sont regroupées dans un "cluster" pour un même emplacement géographique (avec une forme affichée par défaut)
 * Les formes dont la provenance géographique est inconnue ou trop vague (un district, un canton, une région) sont affichables en cliquant sur le drapeau cantonal. 
 * Les langues des formes servent de critères d'affichage dans un tableau de contrôle en haut à droite de la carte
 * Le fond de carte est paramétrable : affichage ou non des noms de lieux

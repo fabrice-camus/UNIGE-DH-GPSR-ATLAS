@@ -78,7 +78,6 @@ function initMap() {
 	L.geoJSON(cantonsBoundaries).addTo(GPSRMap);
 	
 
-
 	/* Création des cluster
 		maxClusterRadius:0 --> permet de ne regrouper que les formes d'un même point !
 		zoomToBoundsOnClick est "sans effet" du coup
@@ -93,7 +92,7 @@ function initMap() {
 		iconCreateFunction: function (cluster) {
 		  //On recrée l'icone en forcant le style css pour n'avoir qu'une seule couleur
 		  return new L.DivIcon({
-			html: '<div><span>' + cluster.getChildCount() + '</span></div>',
+			html: '<div><span>' + cluster.getChildCount() +' '+ cluster.getAllChildMarkers()[0].getTooltip().getContent() + '</span></div>',
 			className: 'marker-cluster  marker-cluster-medium', iconSize: new L.Point(40, 40)
 		  })
 		},
