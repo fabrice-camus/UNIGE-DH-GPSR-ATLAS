@@ -213,7 +213,7 @@ function initMap() {
 	}
 	
 
-	
+	/*
 	GPSRMap.on('zoomend', function () {
 		var zoomLevel = GPSRMap.getZoom();
 		var formesPatoises = document.getElementsByClassName('gpsr_formePatois');
@@ -232,7 +232,7 @@ function initMap() {
 	
 });
 	
-	
+	*/
 	//Ajoute les différents layers dans la map
 	GPSRMap.addLayer(markersGroup);
 	GPSRMap.addLayer(layerPatois);
