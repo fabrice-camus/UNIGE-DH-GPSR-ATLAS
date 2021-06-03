@@ -27,6 +27,14 @@ Projet : Unige - DH - Visualisation - SP 2021
     font-size: 20pt;
 	font-weight: bold;   
 }
+span p{
+	margin-left:15px;
+	margin-top:0;
+	padding-left:8px;
+	border-left-style:dotted;
+	border-left-width:1px;
+}
+
 
 /*
 	Classes CSS pour affichage dans les popups
