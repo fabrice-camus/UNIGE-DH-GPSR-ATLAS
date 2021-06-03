@@ -214,6 +214,7 @@ function initMap() {
 	
 	
 	
+	
 	//Ajoute les différents layers dans la map
 	GPSRMap.addLayer(markersGroup);
 	GPSRMap.addLayer(layerPatois);

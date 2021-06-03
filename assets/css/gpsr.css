@@ -27,7 +27,8 @@ Projet : Unige - DH - Visualisation - SP 2021
     font-size: 20pt;
 	font-weight: bold;   
 }
-span p{
+
+span p.gpsr_formePatois, span p.gpsr_formeFraReg{
 	margin-left:15px;
 	margin-top:0;
 	padding-left:8px;
