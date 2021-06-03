@@ -47,7 +47,6 @@ L'atlas linguistique des formes sera accessible dans le portail web à deux endr
 
 Améliorations souhaites : 
 * Afficher la carte avec une police plus petite pour les formes + augmenter la taille dynamiquement en fonction du niveau de zoom
-	* tentative [ici](https://fabrice-camus.github.io/UNIGE-DH-GPSR-ATLAS/FromageDynFontSize.html)
 * Masquer la forme par défaut sur un cluster lorsque celui-ci est cliqué
 
 
