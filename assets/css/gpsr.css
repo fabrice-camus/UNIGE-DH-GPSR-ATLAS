@@ -16,15 +16,16 @@ Projet : Unige - DH - Visualisation - SP 2021
 
 /*
 	Polices du GPSR
+	16pt initialement
 */
 .gpsr_formePatois{
     font-family: GrasseGPSR !important;
-    font-size: 20pt;
+    font-size: 13px;
     
 }
 .gpsr_formeFraReg{
     font-family: didotRomainGPSR !important;
-    font-size: 20pt;
+    font-size: 13px;
 	font-weight: bold;   
 }
 
