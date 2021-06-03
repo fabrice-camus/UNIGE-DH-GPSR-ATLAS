@@ -39,11 +39,16 @@ Le prototype est développé :
 
 Démo en ligne [ici](https://fabrice-camus.github.io/UNIGE-DH-GPSR-ATLAS/Fromage.html)
 
-## Finalisation
-Le prototype a été présenté le 26.05.2021 à un rédacteur du GPSR et a donnée entière satisfaction. 
+## Améliorations - Finalisation
+Le prototype a été présenté le 26.05.2021 à un rédacteur du GPSR et a donnée entière satisfaction sur sa finalité
 L'atlas linguistique des formes sera accessible dans le portail web à deux endroits distincts : 
 * Depuis la liste des formes d'un lemme (module de recherche avancée / Recherche de lemmes, donnant accès à l'écran de la figure 1)
 * Depuis la liste des formes qui résultera d'une recherche spécifique exploitant différents critères linguistiques ou géographiques (module de recherche avancée / Recherche de formes)
+
+Améliorations souhaites : 
+* Afficher la carte avec une police plus petite pour les formes + augmenter la taille dynamiquement en fonction du niveau de zoom
+	* tentative [ici](https://fabrice-camus.github.io/UNIGE-DH-GPSR-ATLAS/FromageDynFontSize.html)
+* Masquer la forme par défaut sur un cluster lorsque celui-ci est cliqué
 
 
 ## Licences

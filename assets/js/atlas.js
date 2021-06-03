@@ -212,25 +212,7 @@ function initMap() {
 		marker.bindPopup(null,{maxWidth:500});		
 	}
 	
-	var ZoomViewer = L.Control.extend({
-		onAdd: function(){
 
-			var container= L.DomUtil.create('div');
-			var gauge = L.DomUtil.create('div');
-			container.style.width = '200px';
-			container.style.background = 'rgba(255,255,255,0.5)';
-			container.style.textAlign = 'left';
-			GPSRMap.on('zoomstart zoom zoomend', function(ev){
-				gauge.innerHTML = 'Zoom level: ' + GPSRMap.getZoom();
-			})
-			container.appendChild(gauge);
-
-			return container;
-		}
-	});
-
-	(new ZoomViewer).addTo(GPSRMap);
-	
 	
 	GPSRMap.on('zoomend', function () {
 		var zoomLevel = GPSRMap.getZoom();
