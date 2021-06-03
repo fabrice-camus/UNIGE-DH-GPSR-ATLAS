@@ -20,12 +20,12 @@ Projet : Unige - DH - Visualisation - SP 2021
 */
 .gpsr_formePatois{
     font-family: GrasseGPSR !important;
-    font-size: 13px;
+    font-size: 16pt;
     
 }
 .gpsr_formeFraReg{
     font-family: didotRomainGPSR !important;
-    font-size: 13px;
+    font-size: 16pt;
 	font-weight: bold;   
 }
 
