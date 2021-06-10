@@ -32,7 +32,7 @@ CREATE OR REPLACE PACKAGE BODY PKG_FCA_ATLAS AS
 
         apex_json.initialize_clob_output;
         apex_json.open_object;
-        --Markers est l'élément racine du fichier JSON.
+
         apex_json.write('lesformes', l_cursor);
         apex_json.close_object;
         l_formesJSON := apex_json.get_clob_output;
